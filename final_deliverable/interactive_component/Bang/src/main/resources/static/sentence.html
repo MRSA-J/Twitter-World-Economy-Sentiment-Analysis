@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Sentence</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        textarea {
+            resize: vertical;
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">MIND READER</h1>
+    <form id="sentence-form" class="mt-5">
+        <div class="form-group">
+            <label for="sentence">Give me a sentence about your current view on the economy, I can read your heart</label>
+            <textarea id="sentence" name="sentence" class="form-control" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Inject Magic</button>
+    </form>
+
+    <div id="response-section" class="mt-5">
+        <h2>Magic Apparition</h2>
+        <textarea id="response" class="form-control" rows="3" readonly></textarea>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $('#sentence-form').on('submit', function(e) {
+            e.preventDefault();
+
+            var sentence = $('#sentence').val();
+
+            $.ajax({
+                url: '/process',
+                type: 'post',
+                contentType: 'application/json',
+                data: JSON.stringify({ sentence: sentence }),
+                success: function(response) {
+                    if (response.code === 200) {
+                        $('#response').text(response.data);
+                    } else if (response.code === 500) {
+                        $('#response').text(response.message);
+                    } else {
+                        $('#response').text('Unexpected response code');
+                    }
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

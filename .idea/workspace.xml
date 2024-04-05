@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e6f37d1-7409-48d3-96c0-0492a05a48a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2MCLhVJtaxJSFt6YNqM0iaZoXyn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dataviz-MRSA-J" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj\analysis_deliverable\reports" />
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj\code\hypothesis testing" />
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj\code\ml" />
+      <recent name="C:\Users\HP\Desktop\ds_final_proj\data_deliverable\reports" />
+      <recent name="C:\Users\HP\Desktop\ds_final_proj\data_deliverable\reports\tech_report" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj\final_deliverable" />
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj\analysis_deliverable\visualizations" />
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj" />
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj\data" />
+      <recent name="C:\Users\HP\OneDrive\桌面\ds_final_proj\code" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e6f37d1-7409-48d3-96c0-0492a05a48a9" name="Default Changelist" comment="" />
+      <created>1677266738539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677266738539</updated>
+      <workItem from="1677266740683" duration="43041000" />
+      <workItem from="1677468612981" duration="764000" />
+      <workItem from="1679321137046" duration="5372000" />
+      <workItem from="1679333466610" duration="183000" />
+      <workItem from="1679333718516" duration="37641000" />
+      <workItem from="1679530418909" duration="627000" />
+      <workItem from="1681828376693" duration="390000" />
+      <workItem from="1681828782855" duration="5000" />
+      <workItem from="1682171786188" duration="43909000" />
+      <workItem from="1682516774943" duration="6777000" />
+      <workItem from="1682913648587" duration="34000" />
+      <workItem from="1683873662338" duration="4627000" />
+      <workItem from="1684065946596" duration="5163000" />
+      <workItem from="1684397047564" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
